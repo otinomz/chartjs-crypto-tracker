@@ -1,3 +1,4 @@
+import { makeStyles } from '@material-ui/core';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Header from './components/Header';
@@ -8,7 +9,9 @@ function App() {
   // using 
   const useStyles = makeStyles(() => ({
     App: {
-      backgrounColor: ""
+      backgrounColor: "#14161a",
+      color: "white",
+      minHeight: '100vh'
     }
   }));
 
