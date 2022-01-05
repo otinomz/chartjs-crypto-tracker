@@ -10,7 +10,7 @@ function App() {
       <div>
         <Header />
         
-        <Route path="/" component={HomePage }/>
+        <Route path="/" component={HomePage } exact/>
         <Route path="/coins/:id" component={CoinPage}/>
         
       </div>
