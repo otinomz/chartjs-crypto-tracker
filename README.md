@@ -1,0 +1,1 @@
+Crypto Price Tracker built with React js, Chart Js to render the chart of crypto prices and material UI, an easy framework for Styles in React.
